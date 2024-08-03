@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Técnicos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .service {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 30%;
+            transition: transform 0.3s;
+        }
+        .service:hover {
+            transform: translateY(-10px);
+        }
+        .service img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .service h3 {
+            margin-top: 10px;
+            color: #333;
+        }
+        .service p {
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Servicios Técnicos</h1>
+        <div class="services">
+            <div class="service">
+                <img src="https://via.placeholder.com/300x200" alt="Instalación de Cámaras">
+                <h3>Instalación de Cámaras</h3>
+                <p>Ofrecemos servicios profesionales de instalación de cámaras de seguridad para su hogar o negocio.</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/300x200" alt="Creación de Páginas Web">
+                <h3>Creación de Páginas Web</h3>
+                <p>Diseñamos y desarrollamos páginas web modernas y funcionales para su empresa.</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/300x200" alt="Instalaciones Eléctricas">
+                <h3>Instalaciones Eléctricas</h3>
+                <p>Realizamos todo tipo de instalaciones eléctricas, garantizando seguridad y eficiencia.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

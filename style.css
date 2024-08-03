@@ -7,7 +7,7 @@ html, body {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
+    background-color: #ffffff;
     color: #333;
 }
 
@@ -25,11 +25,36 @@ header h1 {
 }
 
 .content h2 {
+    color: #40c550;
+}
+
+.content h3 {
+    margin-top: 40px;
+    font-size: 2rem;
+    color: #1a73e8;
+    text-align: center;
+}
+
+.list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f0f8ff;
+}
+
+.list-group-item strong {
     color: #1a73e8;
 }
+
 
 footer p {
     margin: 0;
 }
-
 
