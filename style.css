@@ -32,16 +32,3 @@ footer p {
     margin: 0;
 }
 
-
- .cards {
-            display: flex;              
-            flex-wrap: wrap;             
-            justify-content: space-around; 
-            margin: 20px 0;                         
-}
-
-        .card {
-            width: 18rem; 
-            margin: 10px; 
-            border-radius: 1rem;
-        }
