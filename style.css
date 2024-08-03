@@ -34,15 +34,14 @@ footer p {
 
 
  .cards {
-            display: flex;                /* Usar Flexbox */
-            flex-wrap: wrap;             /* Permite que las tarjetas se envuelvan */
-            justify-content: space-around; /* Distribuir tarjetas uniformemente */
-            margin: 20px 0;               /* Espaciado vertical */
-           
-        }
+            display: flex;              
+            flex-wrap: wrap;             
+            justify-content: space-around; 
+            margin: 20px 0;                         
+}
 
         .card {
-            width: 18rem; /* Ancho de cada tarjeta */
-            margin: 10px; /* Espacio entre las tarjetas */
+            width: 18rem; 
+            margin: 10px; 
             border-radius: 1rem;
         }
