@@ -1,0 +1,10 @@
+# Este es un ejemplo de los pasos que hice
+- PRIMERO se crea un repositorio y se configura y se clona
+- se crea la rama hotfix_4961
+-se hacen cambios en la copia del index con nombre mio y se modifica
+-se añade al stage con git add.
+- se hace un commit inicial
+-luego  en la copia se agrega contenido
+-luego se agrega al stage con git add.
+-luego se hace un commit
+-luego se hace un push al repo
