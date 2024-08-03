@@ -1,0 +1,12 @@
+PASOS
+- Arranque con git init
+- Se configuro la ruta del repositorio con git remote
+- Se hizo pull a los archivos
+- se cambio de la ramam master a la main
+- se hizo un git checkout para crear y cambiar a la rama hotfix
+- se copio y agrego un index nuevo
+- Se hicieron cambios en el footer del index copia
+- se hizo un commit de los cambios hechos
+- Se hizo una modificacion al home agregandole el apartado de los servicios
+- se agrego una parte de fuentes en style.css
+- se hace un nuevo commit con los cambios.
