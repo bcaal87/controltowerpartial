@@ -1,40 +1,39 @@
- html, body {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-        }
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffffff;
-            color: #333;
-        }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
 
-        header h1 {
-            font-size: 2.5rem;
-        }
+header h1 {
+    font-size: 2.5rem;
+}
 
-        .navbar-nav .nav-item .nav-link {
-            font-weight: bold;
-            font-size: 1.1rem;
-        }
+.navbar-nav .nav-item .nav-link {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
 
-        .container {
-            flex-grow: 1;
-        }
+.container {
+    flex-grow: 1;
+}
 
-        .content h2 {
-            color: #40c550;
-        }
+.content h2 {
+    color: #40c550;
+}
 
-        footer p {
-            margin: 0;
-        }
+footer p {
+    margin: 0;
+}
 
-        /*-------------------------*/
 
-        .cards {
+ .cards {
             display: flex;                /* Usar Flexbox */
             flex-wrap: wrap;             /* Permite que las tarjetas se envuelvan */
             justify-content: space-around; /* Distribuir tarjetas uniformemente */
