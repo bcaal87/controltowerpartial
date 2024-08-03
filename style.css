@@ -32,4 +32,11 @@ footer p {
     margin: 0;
 }
 
-
+.service-img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* ajuste a las necesidades*/
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
