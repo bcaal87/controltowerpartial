@@ -24,7 +24,7 @@ header h1 {
     flex-grow: 1;
 }
 
-.content h2 {
+.content h2, .services h2 {
     color: #1a73e8;
 }
 
@@ -32,4 +32,11 @@ footer p {
     margin: 0;
 }
 
+.services .col-md-4 h4 {
+    color: #1a73e8;
+    margin-top: 20px;
+}
 
+.services .col-md-4 p {
+    color: #333;
+}
