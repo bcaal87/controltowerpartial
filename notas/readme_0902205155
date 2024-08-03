@@ -1,0 +1,59 @@
+1.	Hacer el fork 
+ 
+2. Clonar el código 
+	Git init 
+ 
+	Git clone https://github.com/JESHUAFER/IPARCIAL_0902205155.git
+ 
+
+
+
+3. Cree un arama con el nombre de hotflix y su carne 
+ 
+4. Modifique el archivo index.html y haga una copia con su nombre y numero de carne
+ 
+	Nos aseguramos que estamos trabajando en la rama que acabamos de crear
+	 
+	En la sección del pie del sitio agregue su correo electrónico y nombre completo
+ 
+
+ 
+	Suba estos cambios a su repositorio local y haga un commit con un gitmoji, agregando un comentario 
+	Hacemos un git status para ver si hay algún cambio 
+ 
+	Como si hay un cambio hacemos un git add index_cristhoferteniLigorria_0902205155.html
+ 
+	Probamos otra vez con git status para ver si se subieron los cambios 
+ 
+	Ahora hacemos el git commit : git commit -m ":heavy_plus_sign: nueva informacion al pie de pagina"
+ 
+	Integramos nuestra rama con git merge y luego con git push lo subimos
+ 
+ 
+Y en nuestro repositorio ya nos aparece los cambios que realizamos con el cometario que hicimos a dicho cambio
+
+Agregue una sección en el home (en el archivo index copia) en donde se reflejen los servicios que ofrece la empresa
+	Creamos el archivo home
+ 
+	Lo direccionamos con nuestra barra de navegación 
+ 
+	Quedaría de esta forma 
+
+  
+De esta forma quedaría los servicios que presta la empresa
+5. Procedemos a subircon git add.
+	Pero antes vemos que cambios no hemos guardado con git status 
+ 
+Hacemos los cambios con git add .
+ 
+Ahora con git status vemos si se subió 
+ 
+Hacemos un git commit 
+git commit -m " :alien: se agrego el home"
+ 
+Con un git push subimos a nuestro repositorio
+ 
+
+ 
+
+
